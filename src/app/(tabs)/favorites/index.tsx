@@ -1,14 +1,20 @@
 import { defaultStyles } from "@/styles"
-import { Text, View } from "react-native"
+import { ScrollView, View, StyleSheet } from "react-native"
 
 const FavoritesScreen = () => {
     return (
         <View style={defaultStyles.container}>
-            <Text style={defaultStyles.text}>
-                This is the Favorites screen.
-            </Text>
+            <ScrollView contentContainerStyle={styles.content}>
+                {/* Content goes here */}
+            </ScrollView>
         </View>
     )
 }
+
+const styles = StyleSheet.create({
+    content: {
+        padding: 20,
+    },
+})
 
 export default FavoritesScreen
