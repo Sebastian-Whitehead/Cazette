@@ -21,7 +21,8 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#000"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "package": "com.seba574d.Cazette"
     },
     "web": {
       "favicon": "./assets/favicon.png"
@@ -31,7 +32,7 @@
     ],
     "experiments": {
       "typedRoutes": true,
-      "tsconfigPaths":true
+      "tsconfigPaths": true
     }
   }
 }
